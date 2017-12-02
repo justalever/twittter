@@ -22,7 +22,7 @@ Twitter is pretty elaborate application. I won't be covering replies, retweets, 
 
 There are also a few gems in the wild for "liking" posts. [Here's a favorite of mine](https://github.com/schneems/Likeable)
 
-**Note:** One big error I noticed after calling it quits on this build was that any logged in user could edit **any** other user's tweeets. This is a big security flow as a user's abilities should only lie within their own account. See if you can find a way to only allow the current logged in user to edit their own tweets and not other users. I may revisit this series to extend and address these issues. 
+**Note:** One big error I noticed after calling it quits on this build was that any logged in user could edit **any** other user's tweeets. This is a big security flaw as a user's abilities should only lie within their own account. See if you can find a way to only allow the current logged in user to edit their own tweets and not other users. I may revisit this series to extend and address these issues. 
 
 ### Ruby gems used in this build
 
