@@ -10,7 +10,7 @@ This app will most notably demonstrate a user role system giving your web applic
 
 #### Download the source code
 
-[button url="https://github.com/justalever/twittter" class="btn"]Download the source code[/button]
+[Download the source code](https://github.com/justalever/twittter)
 
 ### What we are building
 
