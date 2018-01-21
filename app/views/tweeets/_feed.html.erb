@@ -27,7 +27,7 @@
   				<small><%= tweeet.user.username %></small><br/>
   				<p><%= tweeet.tweeet %></p>
   			</div>
-        <% if user_signed_in? %>
+        <% if user_signed_in? && current_user.id == tweeet.user_id %>
   			<nav class="level">
   				<div class="level-left is-mobile">
   					<%= link_to tweeet, class: "level-item" do %>
